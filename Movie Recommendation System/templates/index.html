@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Movie Recommender</title>
+</head>
+<body class="sci-fi-bg">
+    <div class="container">
+        <h1 class="neon-text">Discover Movies with a Sci-Fi Flair</h1>
+        <form action="/recommend_content" method="POST" class="recommend-form">
+            <input type="text" name="genres" placeholder="Enter genres (e.g., Action, Romance)" required class="neon-input">
+            <input type="number" name="year" placeholder="Enter release year (e.g., 2000)" required class="neon-input">
+            <button type="submit" class="neon-button">Find Content-Based Recommendations</button>
+        </form>
+        <form action="/recommend_collaborative" method="POST" class="recommend-form">
+            <input type="number" name="user_id" placeholder="Enter your User ID" required class="neon-input">
+            <button type="submit" class="neon-button">Find Collaborative Recommendations</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+body.sci-fi-bg {
+    background-color: #0d0d0d; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif; /* Font style */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding around the container */
+}
+
+h1.neon-text {
+    font-size: 2.5em;
+    color: #00ffcc; /* Neon cyan */
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc; /* Neon glow effect */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.input-container {
+    border: 2px solid #00ffcc; /* Neon border */
+    padding: 20px; /* Padding inside the input container */
+    margin: 15px 0; /* Space between input containers */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Neon glow */
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column; /* Stack movie boxes vertically */
+    align-items: center; /* Center movie boxes */
+    margin-top: 20px; /* Space above movie recommendations */
+}
+
+.movie-box {
+    border: 2px solid #00ffcc; /* Neon border */
+    padding: 15px;
+    margin: 15px 0; /* Space between movie boxes */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Neon glow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation effect */
+    width: 300px; /* Fixed width for movie boxes */
+}
+
+.movie-box:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff; /* Enhanced glow on hover */
+}
+
+.neon-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00ffcc; /* Neon border */
+    border-radius: 5px; /* Rounded corners for input fields */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #ffffff; /* White text */
+    font-size: 1em; /* Font size for input fields */
+    width: 100%; /* Full width of the container */
+    box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; /* Neon glow effect */
+    transition: box-shadow 0.2s; /* Animation effect */
+}
+
+.neon-input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Enhanced glow on focus */
+}
+
+.neon-button {
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #00ffcc; /* Neon button color */
+    color: #000000; /* Black text */
+    font-size: 1em; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; /* Neon glow effect */
+    transition: background-color 0. 2s, box-shadow 0.2s; /* Animation effect */
+}
+
+.neon-button:hover {
+    background-color: #ff00ff; /* Change button color on hover */
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Enhanced glow on hover */
+}
+
+.movie-title.neon-text {
+    font-size: 1.5em;
+    color: #ff00ff; /* Neon magenta */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; /* Neon glow effect */
+}
+
+.movie-genres, .similarity-score {
+    color: #ffffff; /* White text for genres and scores */
+    margin-top: 5px;
+    font-size: 1em; /* Font size for genres and scores */
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column; /* Stack output boxes vertically */
+    align-items: center; /* Center output boxes */
+    margin-top: 20px; /* Space above output recommendations */
+}
+
+.output-box {
+    border: 2px solid #00ffcc; /* Neon border */
+    padding: 15px;
+    margin: 15px 0; /* Space between output boxes */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Neon glow */
+    width: 300px; /* Fixed width for output boxes */
+}
+
+.output-box:hover {
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff; /* Enhanced glow on hover */
+}

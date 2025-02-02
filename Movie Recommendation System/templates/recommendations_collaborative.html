@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Collaborative Recommendations</title>
+</head>
+<body class="sci-fi-bg">
+    <div class="container">
+        <h1 class="neon-text">Collaborative Recommendations</h1>
+        <div class="movie-container">
+            {% if movies.empty %}
+                <p class="neon-text">No recommendations found.</p>
+            {% else %}
+                {% for movie in movies.itertuples() %}
+                    <div class="movie-box neon-box">
+                        <div class="movie-title neon-text">{{ movie.title }}</div>
+                        <div class="movie-genres">Genres: {{ movie.genres }}</div>
+                        <div class="similarity-score">Similarity Score: {{ movie.similarity_score|round(2) }}</div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

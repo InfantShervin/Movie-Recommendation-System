@@ -1,0 +1,64 @@
+title,genres,year,user_id,user_ratings
+Galactic Warfare,Fantasy Sci-Fi,1990,10,3.5
+Romance in Mars,Action Sci-Fi,2022,1,4.0
+Lunar Legacy,Drama Sci-Fi,2014,8,4.7
+Quantum Quest,Action Sci-Fi,2003,4,3.1
+The Nebula Conspiracy,Action Sci-Fi,2020,7,3.2
+Astro Guardians,Comedy Sci-Fi,1991,5,3.3
+Eternal Eclipse,Action Sci-Fi,2001,7,3.9
+Digital Mirage,Romance Sci-Fi,2000,4,3.1
+Alien Dawn,Action Sci-Fi,2015,2,1.4
+Future's Edge,Drama Sci-Fi,1999,3,4.0
+Cosmic Love,Romance Sci-Fi,1991,6,4.5
+Andromeda's Call,Drama Sci-Fi,1982,1,4.2
+Starlight Serenade,Fantasy Sci-Fi,2008,9,3.0
+The Last Star,Drama Sci-Fi,2002,8,3.5
+Neural Nexus,Comedy Sci-Fi,1982,5,2.1
+Binary Hearts,Romance Sci-Fi,2017,3,4.1
+Hypernova,Action Sci-Fi,1995,9,4.1
+Asteroid Ascent,Drama Sci-Fi,2012,7,3.7
+Galactic Odyssey,Adventure Sci-Fi,2023,11,4.8
+Time Warp,Thriller Sci-Fi,2021,12,4.2
+The Quantum Realm,Fantasy Sci-Fi,2019,13,4.5
+Cybernetic Dreams,Action Sci-Fi,2025,14,4.0
+The Last Colony,Drama Sci-Fi,2024,15,4.3
+Virtual Reality,Comedy Sci-Fi,2020,16,3.8
+Space Pirates,Action Sci-Fi,2018,17,3.9
+The AI Uprising,Thriller Sci-Fi,2023,18,4.6
+Galactic Love Story,Romance Sci-Fi,2022,19,4.1
+Astro Explorers,Adventure Sci-Fi,2021,20,4.4
+The Time Traveler's Dilemma,Drama Sci-Fi,2020,21,4.0
+Neon City,Action Sci-Fi,2025,22,4.2
+The Cosmic Conspiracy,Thriller Sci-Fi,2023,23,4.5
+Parallel Universes,Fantasy Sci-Fi,2022,24,4.3
+The Last Human,Drama Sci-Fi,2021,25,4.1
+Robot Revolution,Action Sci-Fi,2024,26,3.7
+The Space Between,Romance Sci-Fi,2023,27,4.0
+Asteroid Miners,Adventure Sci-Fi,2025,28,4.2
+The Galactic War,Action Sci-Fi,2022,29,3.8
+The Singularity,Thriller Sci-Fi,2023,30,4.4
+Dreams of Tomorrow,Fantasy Sci-Fi,2021,31,4.1
+The Forgotten Planet,Drama Sci-Fi,2020,32,3.9
+The Last Frontier,Adventure Sci-Fi,2024,33,4.5
+The Cybernetic Age,Action Sci-Fi,2023,34,4.0  
+The Alien Artifact,Thriller Sci-Fi,2022,35,4.3  
+Galactic Guardians,Action Sci-Fi,2025,36,4.1  
+The Time Machine,Fantasy Sci-Fi,2021,37,4.2  
+The Space Race,Drama Sci-Fi,2023,38,4.0  
+The Quantum Leap,Adventure Sci-Fi,2024,39,4.4  
+The AI Experiment,Thriller Sci-Fi,2022,40,3.8  
+The Cosmic Journey,Fantasy Sci-Fi,2023,41,4.5  
+The Last Hope,Drama Sci-Fi,2021,42,4.1  
+The Intergalactic War,Action Sci-Fi,2025,43,4.3  
+The Virtual World,Comedy Sci-Fi,2022,44,3.9  
+The Space Odyssey,Adventure Sci-Fi,2023,45,4.2  
+The Galactic Alliance,Action Sci-Fi,2024,46,4.0  
+Neon Shadows,Sci-Fi Crime,2023,47,4.1  
+The Cyber Heist,Sci-Fi Crime,2024,48,4.2  
+Future Crimes,Sci-Fi Crime,2025,49,4.3  
+War of the Worlds,Action Sci-Fi War,2023,50,4.4  
+Galactic Conflict,Action Sci-Fi War,2024,51,4.5  
+The Last Battle,Action Sci-Fi War,2025,52,4.6  
+Cyber Warfare,Action Sci-Fi War,2023,53,4.7  
+The War Within,Drama Sci-Fi War,2024,54,4.8  
+The Final Stand,Action Sci-Fi War,2025,55,4.9  
